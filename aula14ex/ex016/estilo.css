@@ -1,11 +1,24 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+
 body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     background-color:rgb(70, 70, 233) ;
-    font: normal 15pt Arial;
+    font: normal 18px Arial;
+    gap: 32px;
 }
 
 header{
 color: white;
 text-align: center;
+padding: 20px;
+
 }
 
 section{
@@ -15,6 +28,25 @@ padding: 10px;
 width: 500px;
 margin: auto;
 box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363) ;
+}
+
+section > div {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section > div > label {
+    margin-bottom: 5px 0px;
+}
+
+section > div > input {
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 10px 0px;
 }
 
 footer{
